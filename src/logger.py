@@ -2,7 +2,6 @@ import logging
 import os
 import sys
 from datetime import datetime
-from exception import CustomerException
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 LOF_FOLDER=f"{datetime.now().strftime('%m_%d_%Y')}"
